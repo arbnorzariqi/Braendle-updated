@@ -2198,7 +2198,11 @@ font-size: 14px !important;
 
 }
 
-.cars__copy h3, .cta__text h3{
+.cars__copy h3{
   font-size: 24px; 
+  margin-bottom: 5px;
+}
+.cta__text h3{
+  font-size: 16px;
   margin-bottom: 5px;
 }
