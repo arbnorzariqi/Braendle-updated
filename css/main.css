@@ -2194,3 +2194,7 @@ font-size: 14px !important;
   font-size: 24px; 
   margin-bottom: 5px;
 }
+
+.cars__copy span{
+  font-size: inherit; 
+}
