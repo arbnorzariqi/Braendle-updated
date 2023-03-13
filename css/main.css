@@ -1549,10 +1549,10 @@ footer {
 
 .cta__text {
   display: block; }
-  .cta__text h4 {
+  .cta__text h3 {
     font-size: 16px; }
     @media screen and (min-width: 1400px) {
-      .cta__text h4 {
+      .cta__text h3 {
         font-size: 20px; } }
   .cta__text p {
     max-width: 95%;
