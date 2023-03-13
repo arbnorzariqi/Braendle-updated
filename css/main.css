@@ -2206,3 +2206,10 @@ font-size: 14px !important;
   font-size: 16px;
   margin-bottom: 5px;
 }
+.footer__info__section p:first-child{
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff8c00;
+  margin-bottom: 5px;
+}
