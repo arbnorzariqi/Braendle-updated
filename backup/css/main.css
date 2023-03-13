@@ -1137,7 +1137,7 @@ ul li ul.dropdown{
   @media screen and (min-width: 1200px) {
     .hero__content {
       margin-left: 14.28571%; } }
-  .hero__content h3 {
+  .hero__content p {
     position: relative;
     left: 5px; }
 
@@ -1883,7 +1883,7 @@ input:focus, textarea:focus {
   animation-duration: 600ms;
   animation-delay: 1000ms; }
 
-.js .loaded .hero__content h3 {
+.js .loaded .hero__content p {
   opacity: 0;
   animation: fadeIn-left;
   animation-fill-mode: forwards;
