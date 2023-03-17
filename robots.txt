@@ -1,1 +1,4 @@
-Allow: *
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://braendle-limousine.ch/sitemap.xml
