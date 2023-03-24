@@ -778,6 +778,14 @@ h3 {
   @media screen and (min-width: 1400px) {
     h3 {
       font-size: 16px; } }
+  h3 span {
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+    margin-left: 10px; }
+    @media screen and (min-width: 1400px) {
+      h3 span {
+        font-size: 16px; } }
 
 h4 {
   font-size: 24px;
@@ -1137,7 +1145,7 @@ ul li ul.dropdown{
   @media screen and (min-width: 1200px) {
     .hero__content {
       margin-left: 14.28571%; } }
-  .hero__content h3 {
+  .hero__content p {
     position: relative;
     left: 5px; }
 
@@ -1549,10 +1557,10 @@ footer {
 
 .cta__text {
   display: block; }
-  .cta__text h4 {
+  .cta__text h3 {
     font-size: 16px; }
     @media screen and (min-width: 1400px) {
-      .cta__text h4 {
+      .cta__text h3 {
         font-size: 20px; } }
   .cta__text p {
     max-width: 95%;
@@ -1885,7 +1893,7 @@ input:focus, textarea:focus {
   animation-duration: 600ms;
   animation-delay: 1000ms; }
 
-.js .loaded .hero__content h3 {
+.js .loaded .hero__content p {
   opacity: 0;
   animation: fadeIn-left;
   animation-fill-mode: forwards;
@@ -2188,4 +2196,20 @@ font-size: 14px !important;
     text-transform: lowercase !important;;
     letter-spacing: 1px !important;
 
+}
+
+.cars__copy h3{
+  font-size: 24px; 
+  margin-bottom: 5px;
+}
+.cta__text h3{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.footer__info__section p:first-child{
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff8c00;
+  margin-bottom: 5px;
 }
